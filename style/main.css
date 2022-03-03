@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 /*Elementos base*/
 body {
     background: var(--preta);
@@ -17,6 +21,7 @@ body {
 }
 
 header .container{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +33,7 @@ header .logo a{
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times;
     font-size: 50px;
-    margin-left: 15px;
+
 
 }
 
@@ -51,8 +56,9 @@ header nav a:hover{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/bannerVinkings.jpg');
 
-    height: 400px;
+    height: 600px;
     background-size:cover;
+    margin-bottom: 25px;
 
     display: flex;
     flex-direction: column;
@@ -79,6 +85,7 @@ header nav a:hover{
     padding: 15px 30px;
     margin-right: 8px;
     font-size: 12px;
+    border-radius: 0.5ch;
 
     cursor: pointer;
     transition: .3s ease all;
@@ -93,17 +100,24 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-.filme-principal .container{
+/* .filme-principal .container{
     margin-left: 15px;
     width: 60%;
-}
+} */
 
 .box-filmes{
     height: 100%;
     width: 100%;
     display: block;
+    cursor:pointer;
 }
 
-.carrosel-filmes{
-    margin-top: 5px;
+.container{
+    margin-left: 10px;
+}
+
+.em-alta{
+    font-size: 15px;
+    margin: 5px;
+    color: #fff;
 }

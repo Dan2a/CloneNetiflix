@@ -19,16 +19,17 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo"><a href="index.html">NETFLIX</a> </h2>
+            <h2 class="logo" id="logo"><a href="index.html">NETFLIX</a> </h2>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#logo">Inicio</a>
+                <a href="#series">Séries</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#documentarios">Documentários</a>
             </nav>
         </div>
     </header>
 
+    <!-- Banner Principal -->
     <main>
         <div class="filme-principal">
             <div class="container">
@@ -41,46 +42,141 @@
                     </button>
                     <button role="button" class="botao">
                         <i class="fa-solid fa-circle-info"></i>
-                        MAIS INFORMAÇÕES
+                         MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>
         </div>
     </main>
+
+    <!-- Carrosel Em Alta-->
     
-    <div class="carrosel-filmes">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class="box-filmes" src="img/mini1.jpg" alt="">
+    <div class="carrosel-filmes-novos">
+        
+        <div class="container" id="em-alta">
+            <div class="em-alta">
+                <h2>Em Alta</h2>
+            </div>    
+                </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filmes" src="img/mini1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini6.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini7.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini8.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini9.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filmes" src="img/mini10.jpg" alt="">
+                </div>
             </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini2.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini3.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini4.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini5.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini6.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini7.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini8.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini9.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="box-filmes" src="img/mini10.jpg" alt="">
-            </div>
-        </div>
+
+            <!-- Carrosel Series-->
+
+            <div class="carrosel-filmes-novos">
+        
+                <div class="container" id="series">
+                    <div class="em-alta">
+                        <h2>Series</h2>
+                    </div>    
+                        </div>
+        
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie4.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie5.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie6.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie7.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie8.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie9.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filmes" src="img/serie10.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Carrosel Filmes-->
+
+                    <div class="carrosel-filmes-novos">
+        
+                        <div class="container" id="filmes">
+                            <div class="em-alta">
+                                <h2>Filmes</h2>
+                            </div>    
+                                </div>
+                
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme1.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme2.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme3.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme4.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme5.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme6.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme7.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme8.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme9.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="box-filmes" src="img/filme10.jpg" alt="">
+                                </div>
+                            </div>
     </div>
 
     <script src="https://kit.fontawesome.com/deb4abc1e9.js" crossorigin="anonymous"></script>
