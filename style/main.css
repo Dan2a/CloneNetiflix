@@ -14,14 +14,22 @@ html{
 }
 
 /*Elementos base*/
+header  {
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0)100%); 
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding-top: 5px;
+}
+
 body {
+    position: relative;
     background: var(--preta);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times;
     color: #fff;
 }
 
 header .container{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,7 +62,8 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/bannerVinkings.jpg');
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9248074229691877) 0%, rgba(0,0,0,0.4766281512605042) 100%), url('/img/bannerVinkings.jpg');
 
     height: 600px;
     background-size:cover;
